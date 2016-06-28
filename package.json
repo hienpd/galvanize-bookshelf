@@ -23,15 +23,13 @@
     "morgan": "^1.7.0",
     "pg": "^6.0.0"
   },
-<<<<<<< HEAD
   "engines": {
     "node": "6.2.1"
-=======
+  },
   "devDependencies": {
     "foreman": "^1.4.1",
     "mocha": "^2.5.3",
     "nodemon": "^1.9.2",
     "supertest": "^1.2.0"
->>>>>>> 561723377b71ba54f5bb0211da095615a33e8815
   }
 }
