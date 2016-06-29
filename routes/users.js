@@ -3,6 +3,8 @@
 const express = require('express');
 const router = express.Router();
 
-// YOUR CODE HERE
+router.post('/users', (req, res, next) => {
+  res.sendStatus(200);
+});
 
 module.exports = router;
