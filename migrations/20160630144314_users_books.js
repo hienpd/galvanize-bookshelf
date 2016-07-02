@@ -20,5 +20,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-  return knex.schema.dropTable('users_artists');
+  return knex.schema.dropTable('users_books');
 };

@@ -15,7 +15,7 @@ router.post('/session', (req, res, next) => {
         return res.sendStatus(401);
       }
 
-      // Check if password is right
+      // Check if password is correct
       const hashed_password = user.hashed_password;
 
       bcrypt.compare(req.body.password, hashed_password, (err, isMatch) => {

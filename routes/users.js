@@ -5,6 +5,7 @@ const router = express.Router();
 const bcrypt = require('bcrypt');
 const knex = require('../knex');
 
+// Register new user
 router.post('/users', (req, res, next) => {
   const email = req.body.email;
   const password = req.body.password;

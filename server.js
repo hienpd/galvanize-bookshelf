@@ -14,9 +14,9 @@ const cookieSession = require('cookie-session');
 
 const authors = require('./routes/authors');
 const books = require('./routes/books');
-const session = require('./routes/session');
 const users = require('./routes/users');
 const users_books = require('./routes/users_books');
+const session = require('./routes/session');
 
 const app = express();
 
